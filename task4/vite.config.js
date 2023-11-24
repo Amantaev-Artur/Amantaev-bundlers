@@ -5,8 +5,7 @@ export default {
 
   css: {
     preprocessorOptions: {
-      scss: {
-      },
+      scss: {},
     },
     include: ['style.css']
   },
@@ -26,7 +25,6 @@ export default {
     outDir: 'dist',
     minify: 'terser',
     lib: false,
-    rollupOptions: {
-    },
+    rollupOptions: {},
   },
 };
