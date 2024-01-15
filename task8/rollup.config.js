@@ -4,6 +4,9 @@ import babel from '@rollup/plugin-babel';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import replace from '@rollup/plugin-replace';
+import svgr from '@svgr/rollup';
+import image from 'rollup-plugin-image';
+
 export default {
   input: "src/index.js",
   output: {
@@ -30,5 +33,7 @@ export default {
       port: 3000,
     }),
     livereload({ watch: "dist" }),
+    svgr(),
+    image()
   ]
 };

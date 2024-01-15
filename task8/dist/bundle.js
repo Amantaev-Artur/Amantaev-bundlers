@@ -7906,7 +7906,27 @@
 	  return /*#__PURE__*/React.createElement("h1", null, "React + Rollup");
 	}
 
-	ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.querySelector('#root'));
+	var _path, _path2;
+	function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+	var SvgJavascript = function SvgJavascript(props) {
+	  return /*#__PURE__*/reactExports.createElement("svg", _extends({
+	    xmlns: "http://www.w3.org/2000/svg",
+	    width: 32,
+	    height: 32,
+	    "aria-hidden": "true",
+	    className: "javascript_svg__iconify javascript_svg__iconify--logos",
+	    viewBox: "0 0 256 256"
+	  }, props), _path || (_path = /*#__PURE__*/reactExports.createElement("path", {
+	    fill: "#F7DF1E",
+	    d: "M0 0h256v256H0z"
+	  })), _path2 || (_path2 = /*#__PURE__*/reactExports.createElement("path", {
+	    d: "m67.312 213.932 19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371 7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259-19.245 0-30.416-9.967-36.087-21.996m85.07-2.576 19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607 9.969 0 16.325-4.984 16.325-11.858 0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257 0-18.044 13.747-31.792 35.228-31.792 15.294 0 26.292 5.328 34.196 19.247l-18.732 12.03c-4.125-7.389-8.591-10.31-15.465-10.31-7.046 0-11.514 4.468-11.514 10.31 0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804 0 21.654-17.012 33.51-39.867 33.51-22.339 0-36.774-10.654-43.819-24.574"
+	  })));
+	};
+	var img = new Image();
+	img.src = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhcmlhLWhpZGRlbj0idHJ1ZSIgcm9sZT0iaW1nIiBjbGFzcz0iaWNvbmlmeSBpY29uaWZ5LS1sb2dvcyIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PHBhdGggZmlsbD0iI0Y3REYxRSIgZD0iTTAgMGgyNTZ2MjU2SDBWMFoiPjwvcGF0aD48cGF0aCBkPSJtNjcuMzEyIDIxMy45MzJsMTkuNTktMTEuODU2YzMuNzggNi43MDEgNy4yMTggMTIuMzcxIDE1LjQ2NSAxMi4zNzFjNy45MDUgMCAxMi44OS0zLjA5MiAxMi44OS0xNS4xMnYtODEuNzk4aDI0LjA1N3Y4Mi4xMzhjMCAyNC45MTctMTQuNjA2IDM2LjI1OS0zNS45MTYgMzYuMjU5Yy0xOS4yNDUgMC0zMC40MTYtOS45NjctMzYuMDg3LTIxLjk5Nm04NS4wNy0yLjU3NmwxOS41ODgtMTEuMzQxYzUuMTU3IDguNDIxIDExLjg1OSAxNC42MDcgMjMuNzE1IDE0LjYwN2M5Ljk2OSAwIDE2LjMyNS00Ljk4NCAxNi4zMjUtMTEuODU4YzAtOC4yNDgtNi41My0xMS4xNy0xNy41MjgtMTUuOThsLTYuMDEzLTIuNThjLTE3LjM1Ny03LjM4Ny0yOC44Ny0xNi42NjctMjguODctMzYuMjU3YzAtMTguMDQ0IDEzLjc0Ny0zMS43OTIgMzUuMjI4LTMxLjc5MmMxNS4yOTQgMCAyNi4yOTIgNS4zMjggMzQuMTk2IDE5LjI0N2wtMTguNzMyIDEyLjAzYy00LjEyNS03LjM4OS04LjU5MS0xMC4zMS0xNS40NjUtMTAuMzFjLTcuMDQ2IDAtMTEuNTE0IDQuNDY4LTExLjUxNCAxMC4zMWMwIDcuMjE3IDQuNDY4IDEwLjE0IDE0Ljc3OCAxNC42MDhsNi4wMTQgMi41NzdjMjAuNDUgOC43NjUgMzEuOTYzIDE3LjcgMzEuOTYzIDM3LjgwNGMwIDIxLjY1NC0xNy4wMTIgMzMuNTEtMzkuODY3IDMzLjUxYy0yMi4zMzkgMC0zNi43NzQtMTAuNjU0LTQzLjgxOS0yNC41NzQiPjwvcGF0aD48L3N2Zz4=';
+
+	ReactDOM.render( /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(App, null), /*#__PURE__*/React.createElement(SvgJavascript, null)), document.querySelector('#root'));
 
 })();
 //# sourceMappingURL=bundle.js.map

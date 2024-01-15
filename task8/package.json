@@ -20,6 +20,8 @@
     "rollup": "^4.6.1",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-serve": "^3.0.0",
-    "styled-jsx": "^5.1.2"
+    "@svgr/rollup": "^8.1.0",
+    "styled-jsx": "^5.1.2",
+    "rollup-plugin-image": "^1.0.2"
   }
 }
